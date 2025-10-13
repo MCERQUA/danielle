@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero.tsx';
+import Services from '../components/Services.tsx';
+import Portfolio from '../components/Portfolio.tsx';
+import Contact from '../components/Contact.tsx';
+---
+
+<Layout title="Danielle - Social Media Manager & Brand Designer">
+  <main>
+    <Hero client:load />
+    <Services client:load />
+    <Portfolio client:load />
+    <Contact client:load />
+  </main>
+</Layout>
